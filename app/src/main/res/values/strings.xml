@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Palicpic_exer4_SlamBook</string>
+    <string name="greeting">Good Day!</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="nickname">Nickname</string>
+    <string name="nickname_hint">Enter Nickname</string>
+    <string name="age">Age</string>
+    <string name="age_hint">Enter Age</string>
+    <string name="bday">When is your Birthday?</string>
+    <string name="bday_hint">Enter Birthday</string>
+    <string name="course">What is your course?</string>
+    <string name="course_hint">Enter Course</string>
+    <string name="number">What is your Mobile Number?</string>
+    <string name="number_hint">Enter Phone Number</string>
+    <string name="color">What is your favorite color?</string>
+    <string name="color_hint">Enter Color</string>
+    <string name="dream">What is your ultimate dream?</string>
+    <string name="dream_hint">Enter Dream</string>
+    <string name="crush">Who is your secret crush?</string>
+    <string name="crush_hint">Enter Name of Crush</string>
+    <string name="message">What is your message for me?</string>
+    <string name="message_hint">Enter Message</string>
+    <string name="done">DONE</string>
+
+</resources>
