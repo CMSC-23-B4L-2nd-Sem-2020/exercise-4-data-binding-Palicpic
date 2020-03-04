@@ -22,5 +22,6 @@
     <string name="message">What is your message for me?</string>
     <string name="message_hint">Enter Message</string>
     <string name="done">DONE</string>
+    <string name="thank_you_for_answering">Thank you for answering!</string>
 
 </resources>
