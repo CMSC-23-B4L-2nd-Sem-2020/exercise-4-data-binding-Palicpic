@@ -16,17 +16,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+        //clickhandler to the donebutton
         binding.doneButton.setOnClickListener{
             doneButtonclickHandler(it)
         }
     }
 
+    //function to the clickhandler of done button
     private fun doneButtonclickHandler(view: View) {
-        binding.scrollview.visibility = View.GONE
-        binding.nameTextView.text = binding.nameEditText.text
-        binding.nicknameTextView.text = binding.nicknameEditText.text
-        binding.ageTextView.text = binding.ageEditText.text
-        binding.resultLayout.visibility = View.VISIBLE
+        binding.scrollview.visibility = View.GONE   //set the visibility of scrollview to gone
+        binding.nameTextView.text = binding.nameEditText.text   //get the input name
+        binding.nicknameTextView.text = binding.nicknameEditText.text   //get the nickname
+        binding.ageTextView.text = binding.ageEditText.text //get the age
+        binding.resultLayout.visibility = View.VISIBLE  //display the name, nickname and age
 
         // Hide the keyboard.
         val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
